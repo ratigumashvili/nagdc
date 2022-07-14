@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'BPG Arial';
+    src: url('BPGArial.eot');
+    src: url('BPGArial.eot?#iefix') format('embedded-opentype'),
+        url('BPGArial.woff2') format('woff2'),
+        url('BPGArial.woff') format('woff'),
+        url('BPGArial.ttf') format('truetype'),
+        url('BPGArial.svg#BPGArial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
