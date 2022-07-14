@@ -1,0 +1,57 @@
+.search-params {
+    border: solid 1px lighten(#B4B4B4, 20%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;
+
+    .search-params-title {
+        font-family: "GPB Mtavruli";
+    }
+
+    p {
+        font-size: 0.9rem;
+        .option {
+            font-weight: bold;
+            padding-right: 5px;
+
+            &::after {
+                content: ":";
+            }
+        }
+
+        .value {
+            &::before {
+                content: "\""
+            }
+
+            &::after {
+                content: "\""
+            }
+        }
+    }
+
+    .search-params-clear {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: -20px;
+        right: 0;
+        border: unset;
+        background: unset;
+        cursor: pointer;
+        color: #133149;
+        transition: all 0.25s ease;
+
+        .icon {
+            font-size: 16px;
+        }
+
+        &:hover {
+            color: darken(#133149, 3%);
+        }
+    }
+}

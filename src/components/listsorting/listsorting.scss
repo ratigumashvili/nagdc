@@ -1,0 +1,53 @@
+.sorting-container {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
+
+    .sorting-params {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        @media (max-width: 500px) {
+            margin-top: 20px;
+        }
+
+        @media (max-width: 370px) {
+            span {
+                display: none;
+            }
+        }
+
+        .sorting-params-btn {
+            border: unset;
+            background: unset;
+            outline: none;
+            padding: 3px 7px;
+            border: solid 1px #133149;
+            border-radius: 3px;
+            color: #133149;
+            transition: all 0.25s ease;
+            cursor: pointer;
+
+            &:hover:not(.active) {
+                background-color: #133149;
+                color: #fff;
+            }
+
+            &.active {
+                background-color: darken(#133149, 10%);
+                color: #fff;
+            }
+
+            .icon {
+                font-size: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.filter-btn {
+    padding: 10px 8px;
+    margin-bottom: 10px;
+    background-color: #133149;
+    border: none;
+    outline: none;
+    color: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'GPB Mtavruli';
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+
+    &:hover {
+        background-color: darken(#133149, 3%);
+    }
+}

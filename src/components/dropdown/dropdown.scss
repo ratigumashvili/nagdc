@@ -1,0 +1,10 @@
+.dropdown {
+    font-size: 0.85rem;
+    select {
+        border: unset;
+        outline: none;
+        padding: 5px;
+        border: solid 1px lighten(#B4B4B4, 20%);
+        border-radius: 3px;
+    }
+}

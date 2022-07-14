@@ -1,0 +1,73 @@
+.list-item {
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.25s ease;
+    align-content: space-between;
+    flex-flow: row wrap;
+
+    &:hover {
+        background-color: darken(#FAFAFA, 3%)
+    }
+}
+
+.no-img {
+    width: 100%;
+    height: 200px;
+    background: url("../../img/camera.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    background-color: #fff;
+  }
+
+  .poster-holder {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .list-item-poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .list-item-title {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .list-item-desc {
+    font-size: 14px;
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+    
+    p {
+      margin-bottom: 10px;
+
+      span {
+        font-weight: bold;
+
+        &::after {
+          padding-right: 5px;
+          content: ":"
+        }
+      }
+    }
+  }
+
+  .list-item-rm {
+    font-weight: bold;
+    color: #133149;
+    margin-top: 20px;
+    font-size: 0.95rem;
+
+    &:hover {
+      color: darken(#133149, 5%);
+      cursor: pointer;
+    }
+  }

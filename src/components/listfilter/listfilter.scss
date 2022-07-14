@@ -1,0 +1,33 @@
+.list-filter {
+    input, .select {
+        height: 40px;
+        width: 100%;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .select {
+        color: inherit;
+        font-family: inherit;
+    }
+
+    .item1 { grid-area: date-from; }
+    .item2 { grid-area: date-to; }
+    .item3 { grid-area: picker; }
+
+    .date-container {
+        display: grid;
+        grid-template-areas:
+            'date-from date-to'
+            'picker picker';
+        gap: 10px;
+    }
+}
+
+
+
+
+
