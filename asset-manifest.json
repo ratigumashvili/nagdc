@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nagdc/static/css/main.9dfb4039.css",
+    "main.js": "/nagdc/static/js/main.798dd517.js",
+    "static/media/bak.png": "/nagdc/static/media/bak.b398b7672bd5a25719e3.png",
+    "static/media/ft-logo.png": "/nagdc/static/media/ft-logo.20deb073dd59b53a8079.png",
+    "static/media/slick.svg": "/nagdc/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/nagdc/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/nagdc/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/nagdc/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/logo.svg": "/nagdc/static/media/logo.421aebb9c7f2563731738ab4e5449876.svg",
+    "index.html": "/nagdc/index.html",
+    "static/media/camera.svg": "/nagdc/static/media/camera.8b92c5eedd0163cae3e2.svg",
+    "main.9dfb4039.css.map": "/nagdc/static/css/main.9dfb4039.css.map",
+    "main.798dd517.js.map": "/nagdc/static/js/main.798dd517.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dfb4039.css",
+    "static/js/main.798dd517.js"
+  ]
+}
